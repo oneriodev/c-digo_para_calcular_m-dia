@@ -1,0 +1,13 @@
+media = x
+frequencia = y
+
+if media > 9:
+  print("Aprovado")
+elif media >= 6 and frequencia >= 75:
+  print("Aprovado")
+elif media >= 6 and frequencia < 75:
+  print("Recuperação")
+elif media < 6 and frequencia >= 75:
+  print("Recuperação")
+else:
+  print("Reprovado")
